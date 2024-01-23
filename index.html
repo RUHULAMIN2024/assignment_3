@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body{
+            font-family: 'Manrope', sans-serif;
+            color: #131318;
+            
+        }
+
+        header, main, .footer{
+            max-width: 1170px;
+            margin: 0 auto !important;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="my-4">
+            <div class=" mx-auto">
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li class="hover:text-[#FF4240]"><a>Home </a></li>
+                          <li class="hover:text-[#FF4240]"><a>About </a></li>
+                          <li class="hover:text-[#FF4240]"><a>Pages </a></li>
+                          <li class="hover:text-[#FF4240]"><a>blog </a></li>
+                          <li class="hover:text-[#FF4240]"><a>Contact </a></li>
+                        </ul>
+                      </div>
+                      <a class="btn btn-ghost text-2xl md:text-4xl font-bold">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li class="hover:text-[#FF4240]"><a>Home </a></li>
+                            <li class="hover:text-[#FF4240]"><a>About </a></li>
+                            <li class="hover:text-[#FF4240]"><a>Pages </a></li>
+                            <li class="hover:text-[#FF4240]"><a>Blog </a></li>
+                            <li class="hover:text-[#FF4240]"><a>Contact </a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <span class="mr-3 hidden md:inline"><img src="images/search.png" alt=""></span>
+                      <a class="btn bg-[#ff4240]">Button</a>
+                    </div>
+                  </div>
+            </div>
+        </nav>
+        <div>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/2.png" class="w-full" />                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="images/3.png" class="w-full" />                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="images/4.png" class="w-full" />                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="py-20 mx-auto">
+                <div class="w-3/5 mx-auto text-center flex flex-col items-center justify-center space-y-4">
+                    <h3 class="md:text-4xl text-2xl font-bold">Professional Hockeys Club</h3>
+                    <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4">
+                    <div class="text-center space-y-4 mt-12 mx-10 md:mx-0">
+                        <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+                        <h4 class="text-xl">Prayer Facility</h4>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="text-center space-y-4 mt-12 mx-10 md:mx-0">
+                        <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+                        <h4 class="text-xl">Prayer Facility</h4>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="text-center space-y-4 mt-12 mx-10 md:mx-0">
+                        <div class="radial-progress text-orange-500" style="--value:90;" role="progressbar">90%</div>
+                        <h4 class="text-xl">Prayer Facility</h4>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    <div class="text-center space-y-4 mt-12 mx-10 md:mx-0">
+                        <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+                        <h4 class="text-xl">Prayer Facility</h4>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="w-3/5 mx-auto text-center flex flex-col items-center justify-center space-y-4">
+                <h3 class="md:text-4xl text-2xl font-bold">Program Sections</h3>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 my-8">
+                <div class="rounded-2xl p-10 mt-4 md:pt-20  md:pr-16 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/2.png)]">
+                    <div class="space-y-6">
+                        <h3 class="text-3xl text-white">Junior Program</h3>
+                        <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <button class="bg-[#ff4240] px-12 py-4 rounded-xl">Register Now!</button>
+                    </div>
+                </div>
+                <div class="rounded-2xl p-10 mt-4 md:pt-20  md:pr-16 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/3.png)]">
+                    <div class="space-y-6">
+                        <h3 class="text-3xl text-white">Teenager Program</h3>
+                        <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <button class="bg-[#ff4240] px-12 py-4 rounded-xl">Register Now!</button>
+                    </div>
+                </div>
+                <div class="rounded-2xl bg-cover md:col-span-2 mt-4 p-10 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(images/4.png)]">
+                    <div class="space-y-6 md:w-1/2 md:mt-28">
+                        <h3 class="text-3xl text-white">Professional Program</h3>
+                        <p class="text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <button class="bg-[#ff4240] px-12 py-4 rounded-xl">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#131318]">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-10 footer py-20 text-white ">
+        <div class="space-y-5 col-span-2 mx-auto p-10 md:p-0">
+            <h3 class="text-3xl font-bold">Get In Touch</h3>
+            <p class="md:w-2/3">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <div class="flex items-center">
+                <img class="w-5 mr-3" src="images/sms.png" alt="">
+                <h5>hockeys@support.com</h5>
+            </div>
+            <div class="flex">
+                <img class="w-5 mr-3" src="images/phone.png" alt="">
+                <h5>(+62) 123-321-543</h5>
+            </div>
+        </div> 
+        <div class="space-y-3 mx-auto">
+            <h3 class="text-lg font-bold">Company</h3>
+            <h5>About us</h5>
+            <h5>Leadership</h5>
+            <h5>Careers</h5>
+            <h5>News & Article</h5>
+            <h5>Legal Notice</h5>
+        </div> 
+        <div class="space-y-3 mx-auto">
+            <h3 class="text-lg font-bold">Support</h3>
+            <h5>Help Center</h5>
+            <h5>FAQ</h5>
+            <h5>Ticket Support</h5>
+            <h5>Contact Us</h5>
+        </div>
+        <div class="space-y-3 mx-auto col-span-2 md:col-span-1">
+            <h3 class="text-lg font-bold">Services</h3>
+                <h5>Academy</h5>
+                <h5>Group Lesson</h5>
+                <h5>Private Lesson</h5>
+                <h5>Hockeys for kids</h5>
+                <h5>Hockeys for Adult</h5>
+        </div> 
+    </div>
+    </footer>
+</body>
+</html>
